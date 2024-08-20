@@ -9,7 +9,7 @@ Formel_m = (num1*pow( 10, -2 ))
 Formel_mA = (num2*pow( 10, -3 ))
 Formel_C = (num3*1.8+32)
 Formel_m_s = (num4/3.6)
-Formel_t =  (num4*pow(10, -3 ))
+Formel_t =  (num5*pow(10, -3 ))
 #Anzeige
 print (" ")
 print (num1, "cm", "sind", Formel_m, "Meter",)
