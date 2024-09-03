@@ -14,7 +14,7 @@ while True :
         
         """)
         
-    num10= float(input("Wähle deine Umrechnung  "))
+    num10= input("Wähle deine Umrechnung  ")
 
 
     #Funktion ungültige Eingabe
@@ -41,7 +41,7 @@ while True :
         num2 = num2.replace ("," , ".")
         num2 = float (num2)
         #Formel
-        Formel_mA = (num2*pow( 10, -3 ))
+        Formel_mA = (num2*10**-3)
         #Ausgabe
         print (f"\n {num2} mA sind {Formel_mA} A")
 
